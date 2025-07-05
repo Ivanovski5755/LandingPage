@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Landing Page</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #0bf4f4;
+      color: #080202;
+      padding: 10px;
+    }
+
+    header {
+      background-color: #027df7;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+      background-color: #005ecb;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgb(212, 209, 209);
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #f6f8fb;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    aside {
+      background-color: #cfcfd6;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    aside a {
+      color: #ff1e1e;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    aside a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #1e90ff;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 2px solid #fff;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      header img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="foto.jpg.jpg" alt="Foto de Willian Ivanovski Pereira">
+    <h1>Willian Ivanovski Pereira</h1>
+    <p>“Quando aceitamos nossos limites, conseguimos ir além deles.”</p>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#extras">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou Aluno da Unicesumar e estou aprendendo HTML, CSS e JavaScript para construir soluções criativas e funcionais.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (básico)</li>
+        <li>GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <article>
+        <h3>Portfólio Pessoal</h3>
+        <p>Um site feito em HTML e CSS apresentando meus projetos e contatos profissionais.</p>
+      </article>
+      <article>
+        <h3>Calculadora de IMC</h3>
+        <p>Projeto que calcula o IMC do usuário com base na altura e peso fornecidos.</p>
+      </article>
+    </section>
+  </main>
+
+  <aside id="extras">
+    <h2>Curiosidades e Links</h2>
+    <p>Sou fã de tecnologia, filmes e games. Veja mais nos meus perfis:</p>
+    <ul>
+      <li><a href="https://github.com/Ivanovski5755" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/willian-ivanovski-088944265" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/will.ivanovski" target="_blank">Instagram</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>Contato: willian.ivanovski@gmail.com</p>
+    <p>© 2025 Willian Ivanovski Pereira</p>
+  </footer>
+
+</body>
+</html>
